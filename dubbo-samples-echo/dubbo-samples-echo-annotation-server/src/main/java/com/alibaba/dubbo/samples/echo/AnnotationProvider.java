@@ -38,7 +38,7 @@ public class AnnotationProvider {
             RegistryConfig registryConfig = new RegistryConfig();
             // #2 使用zookeeper作为注册中心，同时给出注册中心ip和端口
             registryConfig.setProtocol("zookeeper");
-            registryConfig.setAddress("localhost");
+            registryConfig.setAddress("47.96.74.168");
             registryConfig.setPort(2181);
             return registryConfig;
         }
